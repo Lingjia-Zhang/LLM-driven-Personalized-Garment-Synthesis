@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project-specific: large assets & local paths (do not commit)
+*.obj
+*.avt
+*.zpac
+*.mtl
+MD_test/
+MD_size_adjust/
+
+# Logs and temp
+*.log
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Optional: uncomment if you use env files for secrets
+# .env
+# .env.local
